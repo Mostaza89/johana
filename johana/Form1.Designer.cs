@@ -39,9 +39,10 @@
             this.lbtitulo.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbtitulo.Location = new System.Drawing.Point(326, 20);
             this.lbtitulo.Name = "lbtitulo";
-            this.lbtitulo.Size = new System.Drawing.Size(143, 25);
+            this.lbtitulo.Size = new System.Drawing.Size(123, 25);
             this.lbtitulo.TabIndex = 0;
-            this.lbtitulo.Text = "Mi carta para ti";
+            this.lbtitulo.Text = "De mi para ti";
+            this.lbtitulo.Click += new System.EventHandler(this.lbtitulo_Click);
             // 
             // bncarta
             // 
@@ -50,7 +51,7 @@
             this.bncarta.Name = "bncarta";
             this.bncarta.Size = new System.Drawing.Size(116, 39);
             this.bncarta.TabIndex = 1;
-            this.bncarta.Text = "Abrir carta";
+            this.bncarta.Text = "Picame jejeje";
             this.bncarta.UseVisualStyleBackColor = true;
             this.bncarta.Click += new System.EventHandler(this.bncarta_Click);
             // 
@@ -61,7 +62,7 @@
             this.bnsalir.Name = "bnsalir";
             this.bnsalir.Size = new System.Drawing.Size(87, 28);
             this.bnsalir.TabIndex = 2;
-            this.bnsalir.Text = "Salir";
+            this.bnsalir.Text = "Close";
             this.bnsalir.UseVisualStyleBackColor = true;
             this.bnsalir.Click += new System.EventHandler(this.bnsalir_Click);
             // 

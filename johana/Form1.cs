@@ -18,10 +18,14 @@ namespace johana
             this.BackColor = System.Drawing.ColorTranslator.FromHtml("#f9b3b5");
             bncarta.BackColor = ColorTranslator.FromHtml("#f8bca3");
             bncarta.FlatStyle = FlatStyle.Flat;
-            bncarta.FlatAppearance.BorderSize = 0;
+            bncarta.UseVisualStyleBackColor = false;
+            bncarta.FlatAppearance.BorderSize = 2;
+            bncarta.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#701705");
             bnsalir.BackColor = ColorTranslator.FromHtml("#f8bca3");
             bnsalir.FlatStyle = FlatStyle.Flat;
-            bnsalir.FlatAppearance.BorderSize = 0;
+            bnsalir.UseVisualStyleBackColor = false;
+            bnsalir.FlatAppearance.BorderSize = 2;
+            bnsalir.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#701705");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -39,6 +43,11 @@ namespace johana
         private void bnsalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void lbtitulo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
